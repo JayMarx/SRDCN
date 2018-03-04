@@ -1,0 +1,27 @@
+#train_net: "train_SRDCN.prototxt"
+#test_net: "test_SRDCN.prototxt"
+train_net: "train_a1.prototxt"
+
+#test_iter: 1000
+#test_interval: 4000
+
+base_lr: 0.1
+display: 100
+max_iter: 1000000
+
+lr_policy: "step"
+gamma: 0.5
+momentum: 0.9
+weight_decay: 0.0001
+
+snapshot: 10000
+snapshot_prefix: "./model/SRDCN"
+
+solver_mode: GPU
+#random_seed: 831486
+#stepsize: 60000
+# 10 epoch
+stepsize: 60000
+
+clip_gradients: 0.01
+type: "SGD"
