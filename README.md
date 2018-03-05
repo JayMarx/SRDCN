@@ -2,7 +2,7 @@
 
 ## Single Image Super-Resolution Based on Dense Convolutional Network
 
-This is an impletation of SRDCN for single image super-resolution.
+This is an implementation of SRDCN for single image super-resolution.
 
 ### Model Architectural
 
